@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Autour+One&family=Gabarito:wght@900&family=Happy+Monkey&family=Orbitron:wght@600&family=Poppins:wght@300;400;500&family=Press+Start+2P&family=Public+Sans&family=Roboto:wght@300;400&display=swap');
+
+body{
+  padding-top: 110px;
+  background: linear-gradient(to bottom right, #7678ed, #0d47a1, skyblue);
+  background-repeat: no-repeat;
+  font-family: 'poppins';
+  margin: 0%;
+  max-height: 100%;
+  width: 100%;
+}
+.hero h1{
+  color: white;
+}
+span{
+  color: skyblue;
+}
+.sidebar{
+  margin-left: 20px;
+  padding-left: 2%;
+  padding-right: 5%;
+  box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  border: 0px solid black;
+  height: 80%;
+  position: fixed;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(30px);
+  width: 15%;
+}
+
+.parent{
+  color: white;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.main-components{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+nav{
+  top: 0px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(30px);
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  
+}
+nav p{
+  font-size: 15px;
+}
+.top-icon{
+  margin-right: 40px;
+  display: flex;
+  gap: 25px;
+}
+.top-text{
+  
+  display: flex;
+  gap: 50px;
+}
+
+.main-body{
+  align-items: center;
+  justify-content: center;
+  gap: 0%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 30px;
+  margin-right: 20px;
+  box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(30px);
+}
+.main-body h1{
+  margin-bottom: 1px;
+  margin-top: 0%;
+  text-align: center;
+  font-size: 50px;
+}
+.main-body p{
+  
+  margin-top: 0px;
+}
+
+.body-card{
+  margin-left: 340px;
+  height: 100%;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.card{
+  overflow: hidden;
+  border-radius: 10px;
+  height: 400px;
+  width: 32%;
+  
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(30px);
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.3);
+}
+
+nav h1{
+  font-size: 47px;
+  margin-left: 40px;
+}
+.sidebar h1{
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+.card img{
+  max-width: 100%;
+    max-height: 100%;
+    
+    height: 60%;
+}
+.card-parent{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.inp{
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 23px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  width: 275px;
+  outline: none;
+  height: 20px;
+  color: white;
+}
+.inp::placeholder{
+  color: white;
+  font-family: poppins;
+}
+.game-info{
+  font-family: poppins;
+  margin-left: 15px;
+}
+
+.cart{
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  padding: 10px 50px;
+  border-radius: 5px;
+  
+}
